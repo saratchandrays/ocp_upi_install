@@ -1,15 +1,11 @@
 [masters]
-master1.calligan.internal mac_address=00:0c:19:b4:cc:72 ip_address=192.168.200.3 short_name=master1
-master2.calligan.internal mac_address=00:0c:19:93:ff:ed ip_address=192.168.200.4 short_name=master2
-master3.calligan.internal mac_address=00:0c:19:c9:ad:57 ip_address=192.168.200.5 short_name=master3
-
+master1.sarat.internal mac_address=00:50:56:1a:a7:77 ip_address=10.0.0.3 short_name=master1
+master2.sarat.internal mac_address=00:50:56:20:e6:40 ip_address=10.0.0.4 short_name=master2
+master3.sarat.internal mac_address=00:50:56:17:95:8a ip_address=10.0.0.5 short_name=master3
 [workers]
-node1.calligan.internal mac_address=00:0c:19:53:6c:da ip_address=192.168.200.6 short_name=worker1
-node2.calligan.internal mac_address=00:0c:19:3d:61:b6 ip_address=192.168.200.7 short_name=worker2
-
+node1.sarat.internal mac_address=00:50:56:38:e2:d4 ip_address=10.0.0.6 short_name=node1
+node2.sarat.internal mac_address=00:50:56:11:54:62 ip_address=10.0.0.7 short_name=node2
 [support]
-support4.calligan.name mac_address= ip_address=192.168.200.1 short_name=support 
-
+support.sarat.internal mac_address=00:50:56:20:bb:95 ip_address=10.0.0.1 short_name=support
 [bootstrap]
-bootstrap.calligan.internal mac_address=00:0c:19:c4:51:68 ip_address=192.168.200.2 short_name=bootstrap
-
+bootstrap.sarat.internal mac_address=00:50:56:2d:d5:ca ip_address=10.0.0.2 short_name=bootstrap
